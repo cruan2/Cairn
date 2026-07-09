@@ -20,7 +20,7 @@ EXAMPLE = (["Ornn", "Sejuani", "Orianna", "Ezreal", "Karma"],
 
 PAGE = """\
 <meta http-equiv="refresh" content="6">
-<title>Coach Note</title>
+<title>Cairn</title>
 <style>
   :root{{color-scheme:dark}}
   body{{margin:0;background:#0d1117;color:#e6edf3;font:15px/1.55 ui-monospace,Consolas,monospace}}
@@ -31,9 +31,10 @@ PAGE = """\
   pre{{padding:20px;white-space:pre-wrap;margin:0}}
   .hint{{padding:8px 20px;color:#7d8590;font-size:12px;border-top:1px solid #30363d}}
 </style>
-<header><h1>COACH · sticky note</h1><span class="status">{status}</span></header>
+<header><h1>CAIRN · sticky note</h1><span class="status">{status}</span></header>
 <pre>{note}</pre>
 <div class="hint">Auto-refreshes every 6s · reads your live League game locally · no data leaves your PC</div>
+<div class="hint" style="font-size:11px">Cairn isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</div>
 """
 
 

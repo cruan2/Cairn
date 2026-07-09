@@ -7,7 +7,7 @@ Ours is a standard, approvable case (a coaching tool — same category as op.gg/
 ---
 
 ## Product name
-`Coach Sticky-Note`  *(or your preferred name — keep it consistent everywhere)*
+`Cairn`  *(or your preferred name — keep it consistent everywhere)*
 
 ## Product URL
 A public **GitHub repo** is the lowest-friction option — the README already describes the
@@ -22,7 +22,7 @@ Leave blank or "Personal project".
 
 ## Product description  *(paste this)*
 
-> Coach Sticky-Note is a free, non-commercial educational tool that helps lower-ranked League
+> Cairn is a free, non-commercial educational tool that helps lower-ranked League
 > of Legends players improve their pre-game decision-making. Given two team compositions, it
 > produces a concise coaching note — win conditions, lane-matchup advice, power spikes, and
 > common mistakes — in the voice of a higher-ranked player briefing a friend before a game.
@@ -55,7 +55,7 @@ no web API key — mention it for completeness, not as an endpoint request.)*
 - **Non-commercial**, personal use.
 - **Rate limits** respected (paced requests; no scraping of Riot or third-party sites).
 - **Data handling**: store only derived aggregates, not a bulk copy of raw Riot data.
-- **Legal notice**: the app shows "Coach Sticky-Note isn't endorsed by Riot Games and doesn't
+- **Legal notice**: the app shows "Cairn isn't endorsed by Riot Games and doesn't
   reflect the views or opinions of Riot Games or anyone officially involved in producing or
   managing Riot Games properties."
 - No gambling, no real-time botting/automation that affects live games, no selling data.

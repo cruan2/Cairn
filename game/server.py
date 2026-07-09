@@ -84,6 +84,7 @@ PAGE = """<!doctype html><html><head><meta charset=utf-8>
    </div>
  </div>
  <div class=sub><small>Result &amp; live consensus appear after you vote. Rank-weighted, Rankdle-style.</small></div>
+ <div class=sub style="margin-top:18px;font-size:11px;color:#5b636d">Cairn isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</div>
 </div>
 <script>
 let PZ=null;

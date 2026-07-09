@@ -1,4 +1,4 @@
-# Coach Sticky-Note Engine
+# Cairn — coaching sticky-note engine
 
 Simulates what an Emerald/Diamond player tells a Silver/Gold friend in Discord 30 seconds
 before the game: **win conditions, lane dynamics, hidden matchup knowledge, champion
