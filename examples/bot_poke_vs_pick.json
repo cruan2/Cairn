@@ -1,0 +1,5 @@
+{
+  "_comment": "The prompt's canonical example: a scaling/teamfight/poke team vs an early-game pick/snowball team.",
+  "you": ["Ornn", "Sejuani", "Orianna", "Ezreal", "Karma"],
+  "enemy": ["Renekton", "LeeSin", "LeBlanc", "Caitlyn", "Blitzcrank"]
+}

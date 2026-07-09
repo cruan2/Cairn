@@ -1,0 +1,113 @@
+{
+  "_comment": "CURATED EXPERT KNOWLEDGE — not derivable from stats. 'note' is the one-line identity shown on the sticky note; 'wants'/'avoids'/'mistake' feed the Champion Identity section. Keep every line something a Diamond player would actually say.",
+
+  "Ezreal": {
+    "note": "Poke-and-scale ADC — win with health advantage, not kills.",
+    "wants": "Long trades from max range where his skillshots hit and yours can't be answered.",
+    "avoids": "All-ins and hard commits — he has no reset and dies if he stays in melee.",
+    "mistake": "Greeding Q for damage instead of using it to farm safely from behind the wall."
+  },
+  "Karma": {
+    "note": "Poke + disengage enchanter — she makes their engage cost them the fight.",
+    "wants": "To shield the carry through engage and RQ-poke a target below fighting HP first.",
+    "avoids": "Blowing her shield/speed early as poke — that tool is what saves the fight later.",
+    "mistake": "Using the shield proactively when it should be held for the moment they commit."
+  },
+  "Orianna": {
+    "note": "Scaling control mage — the delayed payoff behind your engage.",
+    "wants": "To have her ball on the frontline tank so her ult lands on the whole enemy team.",
+    "avoids": "Getting jumped without her ball nearby — no ball means no defense and no wombo.",
+    "mistake": "Ulting for a single kill instead of saving it to answer or start the 5v5."
+  },
+  "Ornn": {
+    "note": "Scaling engage tank who upgrades the whole team's items.",
+    "wants": "To pick the fight with his ram+ult so his carries follow up from safety.",
+    "avoids": "Facechecking as the lone frontline before his team can follow his engage.",
+    "mistake": "Engaging when his own team isn't there to convert the knockup into a kill."
+  },
+  "Sejuani": {
+    "note": "Tempo tank jungler — her ult is the team's 'go' button.",
+    "wants": "To land Glacial Prison on a priority target so the wombo team follows up.",
+    "avoids": "Solo-ganking for a kill she doesn't need — her value is the teamfight engage.",
+    "mistake": "Wasting her ult on the frontline tank instead of a carry."
+  },
+  "Caitlyn": {
+    "note": "Longest-range lane bully — she wins by turning range into plates.",
+    "wants": "To zone with 650 range and traps, deny CS, and take tower plates early.",
+    "avoids": "Fair fights at even range — she has no escape if you close the gap on her.",
+    "mistake": "Overstaying to force a kill when she'd already won by taking the tower."
+  },
+  "Blitzcrank": {
+    "note": "One hook is the whole game — when it's down, he is harmless.",
+    "wants": "To land a single hook and instantly delete whoever it catches.",
+    "avoids": "Missing the hook — his entire threat is on that one cooldown.",
+    "mistake": "Throwing hooks into minions or tanks instead of waiting for a real target."
+  },
+  "Renekton": {
+    "note": "Early lane tyrant on a timer — snowball now or fall off.",
+    "wants": "To bully the early levels, get a lead, and use it before ~25 minutes.",
+    "avoids": "A long, even game — his damage evaporates once carries get items.",
+    "mistake": "Farming passively and 'scaling' — that throws away his only strong window."
+  },
+  "LeeSin": {
+    "note": "Early skirmish jungler — impact now or become a worse version of everyone.",
+    "wants": "To gank and invade early and convert kills into a snowball for his lanes.",
+    "avoids": "Farming to late game — he has no scaling and falls off a cliff.",
+    "mistake": "Doing flashy mechanics for a solo kill instead of taking the objective it enabled."
+  },
+  "LeBlanc": {
+    "note": "Roaming burst assassin — she deletes one squishy and leaves.",
+    "wants": "To roam with tempo and one-shot an isolated carry, then vanish.",
+    "avoids": "Extended fights — she gets one combo, and if it fails she's useless and squishy.",
+    "mistake": "Committing both dashes to a target she can't kill, then dying with no escape."
+  },
+  "Jinx": {
+    "note": "Immobile hypercarry — protect her and she wins the game by herself.",
+    "wants": "To sit at max range behind peel and reset off a kill to take over the fight.",
+    "avoids": "Being caught out or dived — she has zero mobility and dies instantly if reached.",
+    "mistake": "Walking up for a greedy rocket and getting picked before the fight starts."
+  },
+  "Lulu": {
+    "note": "Hard-peel enchanter — she keeps one carry alive through everything.",
+    "wants": "To babysit the hypercarry and polymorph/ult whoever dives them.",
+    "avoids": "Wandering off her carry — apart from them she does almost nothing.",
+    "mistake": "Using her ult as poke/heal early instead of saving it to deny a kill."
+  },
+  "Malphite": {
+    "note": "Point-and-click wombo engage — one ult can end the game.",
+    "wants": "To buy armor, survive the early game, and flash-ult onto two or more carries.",
+    "avoids": "Blowing his ult on one target — his whole game is the multi-man engage.",
+    "mistake": "Engaging when his team can't follow, turning a game-ender into a solo death."
+  },
+  "Yasuo": {
+    "note": "Knockup-hungry carry — he needs your CC to unlock his ult.",
+    "wants": "Allied knockups (Malphite, Sejuani, Ornn) to chain his ult off of.",
+    "avoids": "Poke-and-disengage lanes that punish his walk-up before he has items.",
+    "mistake": "Ulting for the first knockup he sees instead of the teamfight one."
+  },
+
+  "Warwick": {
+    "note": "Early-game hunter — strongest when a lane can lock a target for his fear.",
+    "wants": "Lanes with reliable CC; a setup for his fear is worth more than raw damage.",
+    "avoids": "Just farming — he's an early bully and wastes that edge by playing for late.",
+    "mistake": "Ganking lanes with no CC, so targets simply walk away from his sustain."
+  },
+  "Viego": {
+    "note": "Reset-hunter jungler — he is the follow-up, not the initiator.",
+    "wants": "Someone else (Nautilus, Ornn, Leona) to open the fight so he can get a reset.",
+    "avoids": "Starting fights himself — he needs a target already committed to reset off a kill.",
+    "mistake": "Trying to be the engage when his kit is built to clean up after one."
+  },
+  "Nami": {
+    "note": "Tempo enchanter — her Bubble is a defensive tool, not a poke tool.",
+    "wants": "To hold Bubble to punish the enemy's engage, and empower her ADC's trades.",
+    "avoids": "Wasting Bubble as random poke — then she has no answer when they commit.",
+    "mistake": "Throwing Bubble to chip HP, leaving her ADC defenseless into engage supports."
+  },
+  "Leona": {
+    "note": "All-in engage support — she wins by forcing your cooldowns then committing.",
+    "wants": "You to waste your defensive spell early so her E all-in finds no answer.",
+    "avoids": "A support who saves peel for her engage — then every all-in of hers fails.",
+    "mistake": "(For you to punish) — she has no poke, so if she can't all-in she does nothing."
+  }
+}

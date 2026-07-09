@@ -1,0 +1,7902 @@
+{
+  "Ezreal": {
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "poke",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 2,
+      "mid": 4,
+      "late": 4
+    },
+    "engage": 0,
+    "disengage": 1,
+    "mobility": 3,
+    "waveclear": 2,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "poke",
+      "kite",
+      "scaling",
+      "squishy",
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [
+      {
+        "when": "level_2",
+        "note": "two abilities for early poke trades"
+      },
+      {
+        "when": "item_1",
+        "note": "first item (Manamune/Sheen line) is his real spike"
+      },
+      {
+        "when": "item_2",
+        "note": "two-item Ezreal starts poking hard from safety"
+      }
+    ],
+    "notes": "Safe, mobile poke ADC. Not an all-in laner; wants to whittle down and scale."
+  },
+  "Karma": {
+    "roles": [
+      "support",
+      "mid"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "poke",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 4,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 3,
+    "mobility": 1,
+    "waveclear": 2,
+    "cc": [
+      {
+        "type": "root",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [
+      "shield",
+      "speed"
+    ],
+    "tags": [
+      "poke",
+      "enchanter",
+      "peel",
+      "earlygame"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_1",
+        "note": "has her ult (RQ/RE) from level 1 — strong early poke and shield"
+      }
+    ],
+    "notes": "Poke + disengage enchanter. Shield+speed lets a carry kite; RQ mandate poke is strong early."
+  },
+  "Orianna": {
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "sustained",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 4,
+      "late": 5
+    },
+    "engage": 1,
+    "disengage": 1,
+    "mobility": 0,
+    "waveclear": 3,
+    "cc": [
+      {
+        "type": "knockup",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [
+      "shield"
+    ],
+    "tags": [
+      "teamfight",
+      "wombo",
+      "poke",
+      "scaling",
+      "objective",
+      "carry",
+      "immobile"
+    ],
+    "carry": true,
+    "spikes": [
+      {
+        "when": "level_6",
+        "note": "Shockwave unlocks her teamfight/wombo threat"
+      },
+      {
+        "when": "item_1",
+        "note": "Lost Chapter item — mana and burst online"
+      }
+    ],
+    "notes": "Control mage that scales hard. Her ult is the wombo payoff behind Ornn/Sejuani engage."
+  },
+  "Ornn": {
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "juggernaut"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "sustained",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 4,
+      "late": 5
+    },
+    "engage": 3,
+    "disengage": 1,
+    "mobility": 1,
+    "waveclear": 2,
+    "cc": [
+      {
+        "type": "knockup",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      },
+      {
+        "type": "brittle",
+        "hard": false
+      }
+    ],
+    "utility": [
+      "resistances"
+    ],
+    "tags": [
+      "frontline",
+      "engage",
+      "wombo",
+      "teamfight",
+      "scaling"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_6",
+        "note": "Ram/Ult combo gives long-range engage and a second knockup"
+      },
+      {
+        "when": "item_2",
+        "note": "self-forged items + team upgrades make his team spike as a unit"
+      }
+    ],
+    "notes": "Scaling engage tank who upgrades allied items. Front-to-back and wombo enabler."
+  },
+  "Sejuani": {
+    "roles": [
+      "jungle"
+    ],
+    "classes": [
+      "tank"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "sustained",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 4,
+      "late": 4
+    },
+    "engage": 3,
+    "disengage": 1,
+    "mobility": 2,
+    "waveclear": 2,
+    "cc": [
+      {
+        "type": "stun",
+        "hard": true
+      },
+      {
+        "type": "knockup",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [
+      "resistances",
+      "heal_cut"
+    ],
+    "tags": [
+      "frontline",
+      "engage",
+      "wombo",
+      "teamfight",
+      "objective"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_6",
+        "note": "Glacial Prison — long-range hard engage for the wombo"
+      }
+    ],
+    "notes": "Tank engage jungler. Permafrost stun + ult chains with Ornn/Orianna for a wombo fight."
+  },
+  "Caitlyn": {
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "poke",
+    "range_type": "ranged",
+    "attack_range": 650,
+    "curve": {
+      "early": 4,
+      "mid": 4,
+      "late": 4
+    },
+    "engage": 0,
+    "disengage": 1,
+    "mobility": 1,
+    "waveclear": 3,
+    "cc": [
+      {
+        "type": "trap_root",
+        "hard": true
+      },
+      {
+        "type": "net_slow",
+        "hard": false
+      }
+    ],
+    "utility": [],
+    "tags": [
+      "poke",
+      "siege",
+      "lanebully",
+      "carry",
+      "squishy",
+      "objective"
+    ],
+    "carry": true,
+    "spikes": [
+      {
+        "when": "level_2",
+        "note": "trap+net combo gives the strongest level-2 all-in in bot lane"
+      },
+      {
+        "when": "item_1",
+        "note": "first crit item — sieges towers with traps and range"
+      }
+    ],
+    "notes": "Longest-range ADC. Dominant early lane bully who zones with 650 range and traps."
+  },
+  "Blitzcrank": {
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "catcher",
+      "tank"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "burst",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 4,
+      "mid": 3,
+      "late": 2
+    },
+    "engage": 3,
+    "disengage": 0,
+    "mobility": 1,
+    "waveclear": 1,
+    "cc": [
+      {
+        "type": "hook",
+        "hard": true
+      },
+      {
+        "type": "knockup",
+        "hard": true
+      },
+      {
+        "type": "silence",
+        "hard": false
+      }
+    ],
+    "utility": [],
+    "tags": [
+      "catcher",
+      "pick",
+      "engage",
+      "earlygame",
+      "falloff"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_1",
+        "note": "Hook is a threat from minute one"
+      }
+    ],
+    "notes": "One hook can end a lane or a game. All his pressure is the hook; when it's down he is nearly useless."
+  },
+  "Renekton": {
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "juggernaut"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "burst",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 5,
+      "mid": 4,
+      "late": 2
+    },
+    "engage": 2,
+    "disengage": 1,
+    "mobility": 2,
+    "waveclear": 2,
+    "cc": [
+      {
+        "type": "stun",
+        "hard": true
+      }
+    ],
+    "utility": [],
+    "tags": [
+      "earlygame",
+      "allin",
+      "lanebully",
+      "dive",
+      "falloff",
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_2",
+        "note": "point-and-click stun all-in at level 2/3"
+      },
+      {
+        "when": "level_6",
+        "note": "empowered ult all-in and dive threat"
+      }
+    ],
+    "notes": "Early-game lane tyrant who wants to snowball a lead before he falls off hard."
+  },
+  "LeeSin": {
+    "roles": [
+      "jungle"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "burst",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 5,
+      "mid": 4,
+      "late": 2
+    },
+    "engage": 2,
+    "disengage": 2,
+    "mobility": 3,
+    "waveclear": 2,
+    "cc": [
+      {
+        "type": "knockback",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [],
+    "tags": [
+      "earlygame",
+      "pick",
+      "dive",
+      "falloff",
+      "roam"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_3",
+        "note": "full kit online — strongest early-gank jungler"
+      }
+    ],
+    "notes": "Early skirmish jungler. Wants to gank and snowball lanes before his damage falls off."
+  },
+  "LeBlanc": {
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "burst",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 4,
+      "mid": 5,
+      "late": 3
+    },
+    "engage": 1,
+    "disengage": 2,
+    "mobility": 3,
+    "waveclear": 1,
+    "cc": [
+      {
+        "type": "root",
+        "hard": true
+      }
+    ],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick",
+      "burst",
+      "roam",
+      "squishy",
+      "falloff"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_3",
+        "note": "chain+combo can kill a squishy already"
+      },
+      {
+        "when": "item_1",
+        "note": "first item makes her one-shot squishies"
+      }
+    ],
+    "notes": "Roaming burst assassin. Deletes squishies mid-game; struggles to close out very late."
+  },
+  "Jinx": {
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "dps",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 2,
+      "mid": 3,
+      "late": 5
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 3,
+    "cc": [
+      {
+        "type": "root",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [],
+    "tags": [
+      "hypercarry",
+      "scaling",
+      "teamfight",
+      "carry",
+      "squishy",
+      "immobile",
+      "objective"
+    ],
+    "carry": true,
+    "spikes": [
+      {
+        "when": "item_2",
+        "note": "two-item Jinx is a teamfight monster with reset potential"
+      },
+      {
+        "when": "three_item",
+        "note": "peak hypercarry — melts the whole team if left alone"
+      }
+    ],
+    "notes": "Immobile hypercarry. Must be protected; wins any game that reaches three items."
+  },
+  "Lulu": {
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "poke",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 4
+    },
+    "engage": 0,
+    "disengage": 3,
+    "mobility": 1,
+    "waveclear": 1,
+    "cc": [
+      {
+        "type": "polymorph",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      },
+      {
+        "type": "knockup",
+        "hard": true
+      }
+    ],
+    "utility": [
+      "shield",
+      "heal",
+      "speed"
+    ],
+    "tags": [
+      "enchanter",
+      "peel",
+      "disengage",
+      "scaling"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "item_1",
+        "note": "first enchanter item makes her shields/heals matter in fights"
+      }
+    ],
+    "notes": "Hard-peel enchanter. Keeps a hypercarry alive; polymorph and ult shut down divers."
+  },
+  "Malphite": {
+    "roles": [
+      "top",
+      "support"
+    ],
+    "classes": [
+      "tank"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "burst",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 2,
+      "mid": 4,
+      "late": 4
+    },
+    "engage": 3,
+    "disengage": 0,
+    "mobility": 2,
+    "waveclear": 2,
+    "cc": [
+      {
+        "type": "knockup",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [
+      "resistances"
+    ],
+    "tags": [
+      "frontline",
+      "engage",
+      "wombo",
+      "teamfight",
+      "scaling"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "item_1",
+        "note": "armor item makes him nearly unkillable vs AD and a wombo threat"
+      },
+      {
+        "when": "level_6",
+        "note": "Unstoppable Force — game-swinging AoE knockup engage"
+      }
+    ],
+    "notes": "Point-and-click AoE engage ult. The classic wombo starter; weak early, strong once he has armor."
+  },
+  "Nami": {
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "poke",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 4,
+      "late": 4
+    },
+    "engage": 1,
+    "disengage": 2,
+    "mobility": 0,
+    "waveclear": 1,
+    "cc": [
+      {
+        "type": "bubble_stun",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [
+      "heal",
+      "speed"
+    ],
+    "tags": [
+      "enchanter",
+      "peel",
+      "poke",
+      "scaling"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "item_1",
+        "note": "first enchanter item makes her heals and E-empower matter"
+      }
+    ],
+    "notes": "Tempo enchanter. Bubble is her defensive answer to engage, not a poke tool."
+  },
+  "Leona": {
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "tank"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "burst",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 4,
+      "mid": 4,
+      "late": 3
+    },
+    "engage": 3,
+    "disengage": 0,
+    "mobility": 1,
+    "waveclear": 0,
+    "cc": [
+      {
+        "type": "stun",
+        "hard": true
+      },
+      {
+        "type": "root",
+        "hard": true
+      },
+      {
+        "type": "slow",
+        "hard": false
+      }
+    ],
+    "utility": [
+      "resistances"
+    ],
+    "tags": [
+      "engage",
+      "allin",
+      "lanebully",
+      "frontline",
+      "dive"
+    ],
+    "carry": false,
+    "spikes": [
+      {
+        "when": "level_2",
+        "note": "E+Q all-in is a lane-defining level-2 spike"
+      }
+    ],
+    "notes": "All-in engage support with no poke. If her all-in fails, she does nothing."
+  },
+  "Yasuo": {
+    "roles": [
+      "mid",
+      "top"
+    ],
+    "classes": [
+      "assassin",
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "dps",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 4,
+      "late": 4
+    },
+    "engage": 1,
+    "disengage": 2,
+    "mobility": 3,
+    "waveclear": 2,
+    "cc": [
+      {
+        "type": "knockup",
+        "hard": true
+      }
+    ],
+    "utility": [],
+    "tags": [
+      "dps",
+      "dive",
+      "teamfight",
+      "wombo",
+      "carry",
+      "squishy"
+    ],
+    "carry": true,
+    "spikes": [
+      {
+        "when": "item_2",
+        "note": "two crit items — dashes through minions and dukes damage"
+      }
+    ],
+    "notes": "Wants allied knockups to ult off. Pairs with wombo engage; punished by poke and disengage."
+  },
+  "Aatrox": {
+    "name": "Aatrox",
+    "_ddragon_id": "Aatrox",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter). Needs curation."
+  },
+  "Ahri": {
+    "name": "Ahri",
+    "_ddragon_id": "Ahri",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "assassin"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Assassin). Needs curation."
+  },
+  "Akali": {
+    "name": "Akali",
+    "_ddragon_id": "Akali",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin). Needs curation."
+  },
+  "Akshan": {
+    "name": "Akshan",
+    "_ddragon_id": "Akshan",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "carry",
+      "pick"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Assassin). Needs curation."
+  },
+  "Alistar": {
+    "name": "Alistar",
+    "_ddragon_id": "Alistar",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "enchanter"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Support). Needs curation."
+  },
+  "Ambessa": {
+    "name": "Ambessa",
+    "_ddragon_id": "Ambessa",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Amumu": {
+    "name": "Amumu",
+    "_ddragon_id": "Amumu",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "enchanter"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Support). Needs curation."
+  },
+  "Anivia": {
+    "name": "Anivia",
+    "_ddragon_id": "Anivia",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 600,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Annie": {
+    "name": "Annie",
+    "_ddragon_id": "Annie",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 625,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Aphelios": {
+    "name": "Aphelios",
+    "_ddragon_id": "Aphelios",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Ashe": {
+    "name": "Ashe",
+    "_ddragon_id": "Ashe",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "enchanter"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 600,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry",
+      "enchanter",
+      "peel"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Support). Needs curation."
+  },
+  "AurelionSol": {
+    "name": "Aurelion Sol",
+    "_ddragon_id": "AurelionSol",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Aurora": {
+    "name": "Aurora",
+    "_ddragon_id": "Aurora",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "assassin"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Assassin). Needs curation."
+  },
+  "Azir": {
+    "name": "Azir",
+    "_ddragon_id": "Azir",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "marksman"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Marksman). Needs curation."
+  },
+  "Bard": {
+    "name": "Bard",
+    "_ddragon_id": "Bard",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "BelVeth": {
+    "name": "Bel'Veth",
+    "_ddragon_id": "Belveth",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter). Needs curation."
+  },
+  "Brand": {
+    "name": "Brand",
+    "_ddragon_id": "Brand",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Braum": {
+    "name": "Braum",
+    "_ddragon_id": "Braum",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "enchanter"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Support). Needs curation."
+  },
+  "Briar": {
+    "name": "Briar",
+    "_ddragon_id": "Briar",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Camille": {
+    "name": "Camille",
+    "_ddragon_id": "Camille",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Cassiopeia": {
+    "name": "Cassiopeia",
+    "_ddragon_id": "Cassiopeia",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "ChoGath": {
+    "name": "Cho'Gath",
+    "_ddragon_id": "Chogath",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "mage"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Mage). Needs curation."
+  },
+  "Corki": {
+    "name": "Corki",
+    "_ddragon_id": "Corki",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "Darius": {
+    "name": "Darius",
+    "_ddragon_id": "Darius",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Diana": {
+    "name": "Diana",
+    "_ddragon_id": "Diana",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Draven": {
+    "name": "Draven",
+    "_ddragon_id": "Draven",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "DrMundo": {
+    "name": "Dr. Mundo",
+    "_ddragon_id": "DrMundo",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "bruiser"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Fighter). Needs curation."
+  },
+  "Ekko": {
+    "name": "Ekko",
+    "_ddragon_id": "Ekko",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Mage). Needs curation."
+  },
+  "Elise": {
+    "name": "Elise",
+    "_ddragon_id": "Elise",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Mage). Needs curation."
+  },
+  "Evelynn": {
+    "name": "Evelynn",
+    "_ddragon_id": "Evelynn",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Mage). Needs curation."
+  },
+  "Fiddlesticks": {
+    "name": "Fiddlesticks",
+    "_ddragon_id": "Fiddlesticks",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 480,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Fiora": {
+    "name": "Fiora",
+    "_ddragon_id": "Fiora",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Fizz": {
+    "name": "Fizz",
+    "_ddragon_id": "Fizz",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Fighter). Needs curation."
+  },
+  "Galio": {
+    "name": "Galio",
+    "_ddragon_id": "Galio",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "mage"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Mage). Needs curation."
+  },
+  "Gangplank": {
+    "name": "Gangplank",
+    "_ddragon_id": "Gangplank",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter). Needs curation."
+  },
+  "Garen": {
+    "name": "Garen",
+    "_ddragon_id": "Garen",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Gnar": {
+    "name": "Gnar",
+    "_ddragon_id": "Gnar",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Gragas": {
+    "name": "Gragas",
+    "_ddragon_id": "Gragas",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Mage). Needs curation."
+  },
+  "Graves": {
+    "name": "Graves",
+    "_ddragon_id": "Graves",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 425,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Gwen": {
+    "name": "Gwen",
+    "_ddragon_id": "Gwen",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter). Needs curation."
+  },
+  "Hecarim": {
+    "name": "Hecarim",
+    "_ddragon_id": "Hecarim",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Heimerdinger": {
+    "name": "Heimerdinger",
+    "_ddragon_id": "Heimerdinger",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Hwei": {
+    "name": "Hwei",
+    "_ddragon_id": "Hwei",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Illaoi": {
+    "name": "Illaoi",
+    "_ddragon_id": "Illaoi",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Irelia": {
+    "name": "Irelia",
+    "_ddragon_id": "Irelia",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 200,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Ivern": {
+    "name": "Ivern",
+    "_ddragon_id": "Ivern",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 475,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Janna": {
+    "name": "Janna",
+    "_ddragon_id": "Janna",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "JarvanIV": {
+    "name": "Jarvan IV",
+    "_ddragon_id": "JarvanIV",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Jax": {
+    "name": "Jax",
+    "_ddragon_id": "Jax",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter). Needs curation."
+  },
+  "Jayce": {
+    "name": "Jayce",
+    "_ddragon_id": "Jayce",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Marksman). Needs curation."
+  },
+  "Jhin": {
+    "name": "Jhin",
+    "_ddragon_id": "Jhin",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "KaiSa": {
+    "name": "Kai'Sa",
+    "_ddragon_id": "Kaisa",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "Kalista": {
+    "name": "Kalista",
+    "_ddragon_id": "Kalista",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Karthus": {
+    "name": "Karthus",
+    "_ddragon_id": "Karthus",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 450,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Kassadin": {
+    "name": "Kassadin",
+    "_ddragon_id": "Kassadin",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Mage). Needs curation."
+  },
+  "Katarina": {
+    "name": "Katarina",
+    "_ddragon_id": "Katarina",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Mage). Needs curation."
+  },
+  "Kayle": {
+    "name": "Kayle",
+    "_ddragon_id": "Kayle",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "marksman"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Marksman). Needs curation."
+  },
+  "Kayn": {
+    "name": "Kayn",
+    "_ddragon_id": "Kayn",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Kennen": {
+    "name": "Kennen",
+    "_ddragon_id": "Kennen",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "KhaZix": {
+    "name": "Kha'Zix",
+    "_ddragon_id": "Khazix",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin). Needs curation."
+  },
+  "Kindred": {
+    "name": "Kindred",
+    "_ddragon_id": "Kindred",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Kled": {
+    "name": "Kled",
+    "_ddragon_id": "Kled",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter). Needs curation."
+  },
+  "KogMaw": {
+    "name": "Kog'Maw",
+    "_ddragon_id": "KogMaw",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "KSante": {
+    "name": "K'Sante",
+    "_ddragon_id": "KSante",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "bruiser"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Fighter). Needs curation."
+  },
+  "Lillia": {
+    "name": "Lillia",
+    "_ddragon_id": "Lillia",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 325,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Mage). Needs curation."
+  },
+  "Lissandra": {
+    "name": "Lissandra",
+    "_ddragon_id": "Lissandra",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Locke": {
+    "name": "Locke",
+    "_ddragon_id": "Locke",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Mage). Needs curation."
+  },
+  "Lucian": {
+    "name": "Lucian",
+    "_ddragon_id": "Lucian",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "carry",
+      "pick"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Assassin). Needs curation."
+  },
+  "Lux": {
+    "name": "Lux",
+    "_ddragon_id": "Lux",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Malzahar": {
+    "name": "Malzahar",
+    "_ddragon_id": "Malzahar",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Maokai": {
+    "name": "Maokai",
+    "_ddragon_id": "Maokai",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "enchanter"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Support). Needs curation."
+  },
+  "MasterYi": {
+    "name": "Master Yi",
+    "_ddragon_id": "MasterYi",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Mel": {
+    "name": "Mel",
+    "_ddragon_id": "Mel",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Milio": {
+    "name": "Milio",
+    "_ddragon_id": "Milio",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "MissFortune": {
+    "name": "Miss Fortune",
+    "_ddragon_id": "MissFortune",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "Wukong": {
+    "name": "Wukong",
+    "_ddragon_id": "MonkeyKing",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Mordekaiser": {
+    "name": "Mordekaiser",
+    "_ddragon_id": "Mordekaiser",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Mage). Needs curation."
+  },
+  "Morgana": {
+    "name": "Morgana",
+    "_ddragon_id": "Morgana",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 450,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Naafiri": {
+    "name": "Naafiri",
+    "_ddragon_id": "Naafiri",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Fighter). Needs curation."
+  },
+  "Nasus": {
+    "name": "Nasus",
+    "_ddragon_id": "Nasus",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Nautilus": {
+    "name": "Nautilus",
+    "_ddragon_id": "Nautilus",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "enchanter"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Support). Needs curation."
+  },
+  "Neeko": {
+    "name": "Neeko",
+    "_ddragon_id": "Neeko",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Nidalee": {
+    "name": "Nidalee",
+    "_ddragon_id": "Nidalee",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Mage). Needs curation."
+  },
+  "Nilah": {
+    "name": "Nilah",
+    "_ddragon_id": "Nilah",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 225,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Nocturne": {
+    "name": "Nocturne",
+    "_ddragon_id": "Nocturne",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "NunuWillump": {
+    "name": "Nunu & Willump",
+    "_ddragon_id": "Nunu",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "mage"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Mage). Needs curation."
+  },
+  "Olaf": {
+    "name": "Olaf",
+    "_ddragon_id": "Olaf",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Pantheon": {
+    "name": "Pantheon",
+    "_ddragon_id": "Pantheon",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Poppy": {
+    "name": "Poppy",
+    "_ddragon_id": "Poppy",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "bruiser"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Fighter). Needs curation."
+  },
+  "Pyke": {
+    "name": "Pyke",
+    "_ddragon_id": "Pyke",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "assassin"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "enchanter",
+      "peel",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Assassin). Needs curation."
+  },
+  "Qiyana": {
+    "name": "Qiyana",
+    "_ddragon_id": "Qiyana",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin). Needs curation."
+  },
+  "Quinn": {
+    "name": "Quinn",
+    "_ddragon_id": "Quinn",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "carry",
+      "pick"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Assassin). Needs curation."
+  },
+  "Rakan": {
+    "name": "Rakan",
+    "_ddragon_id": "Rakan",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 300,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support). Needs curation."
+  },
+  "Rammus": {
+    "name": "Rammus",
+    "_ddragon_id": "Rammus",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank). Needs curation."
+  },
+  "RekSai": {
+    "name": "Rek'Sai",
+    "_ddragon_id": "RekSai",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Rell": {
+    "name": "Rell",
+    "_ddragon_id": "Rell",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "enchanter"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Support). Needs curation."
+  },
+  "RenataGlasc": {
+    "name": "Renata Glasc",
+    "_ddragon_id": "Renata",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Rengar": {
+    "name": "Rengar",
+    "_ddragon_id": "Rengar",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin",
+      "bruiser"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin, Fighter). Needs curation."
+  },
+  "Riven": {
+    "name": "Riven",
+    "_ddragon_id": "Riven",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Rumble": {
+    "name": "Rumble",
+    "_ddragon_id": "Rumble",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Mage). Needs curation."
+  },
+  "Ryze": {
+    "name": "Ryze",
+    "_ddragon_id": "Ryze",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Samira": {
+    "name": "Samira",
+    "_ddragon_id": "Samira",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "carry",
+      "pick"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Assassin). Needs curation."
+  },
+  "Senna": {
+    "name": "Senna",
+    "_ddragon_id": "Senna",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "marksman"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 600,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry",
+      "enchanter",
+      "peel"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Marksman). Needs curation."
+  },
+  "Seraphine": {
+    "name": "Seraphine",
+    "_ddragon_id": "Seraphine",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Sett": {
+    "name": "Sett",
+    "_ddragon_id": "Sett",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Shaco": {
+    "name": "Shaco",
+    "_ddragon_id": "Shaco",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin). Needs curation."
+  },
+  "Shen": {
+    "name": "Shen",
+    "_ddragon_id": "Shen",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank). Needs curation."
+  },
+  "Shyvana": {
+    "name": "Shyvana",
+    "_ddragon_id": "Shyvana",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Singed": {
+    "name": "Singed",
+    "_ddragon_id": "Singed",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "mage"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Mage). Needs curation."
+  },
+  "Sion": {
+    "name": "Sion",
+    "_ddragon_id": "Sion",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "bruiser"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Fighter). Needs curation."
+  },
+  "Sivir": {
+    "name": "Sivir",
+    "_ddragon_id": "Sivir",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Skarner": {
+    "name": "Skarner",
+    "_ddragon_id": "Skarner",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "bruiser"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Fighter). Needs curation."
+  },
+  "Smolder": {
+    "name": "Smolder",
+    "_ddragon_id": "Smolder",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "Sona": {
+    "name": "Sona",
+    "_ddragon_id": "Sona",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Soraka": {
+    "name": "Soraka",
+    "_ddragon_id": "Soraka",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Swain": {
+    "name": "Swain",
+    "_ddragon_id": "Swain",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Sylas": {
+    "name": "Sylas",
+    "_ddragon_id": "Sylas",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "assassin"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Assassin). Needs curation."
+  },
+  "Syndra": {
+    "name": "Syndra",
+    "_ddragon_id": "Syndra",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "TahmKench": {
+    "name": "Tahm Kench",
+    "_ddragon_id": "TahmKench",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "enchanter"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Support). Needs curation."
+  },
+  "Taliyah": {
+    "name": "Taliyah",
+    "_ddragon_id": "Taliyah",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Talon": {
+    "name": "Talon",
+    "_ddragon_id": "Talon",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin). Needs curation."
+  },
+  "Taric": {
+    "name": "Taric",
+    "_ddragon_id": "Taric",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "tank"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Tank). Needs curation."
+  },
+  "Teemo": {
+    "name": "Teemo",
+    "_ddragon_id": "Teemo",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 500,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "Thresh": {
+    "name": "Thresh",
+    "_ddragon_id": "Thresh",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "tank"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 450,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "frontline",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Tank). Needs curation."
+  },
+  "Tristana": {
+    "name": "Tristana",
+    "_ddragon_id": "Tristana",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "carry",
+      "pick"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Assassin). Needs curation."
+  },
+  "Trundle": {
+    "name": "Trundle",
+    "_ddragon_id": "Trundle",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Tryndamere": {
+    "name": "Tryndamere",
+    "_ddragon_id": "Tryndamere",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "TwistedFate": {
+    "name": "Twisted Fate",
+    "_ddragon_id": "TwistedFate",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "marksman"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Marksman). Needs curation."
+  },
+  "Twitch": {
+    "name": "Twitch",
+    "_ddragon_id": "Twitch",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "carry",
+      "pick"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Assassin). Needs curation."
+  },
+  "Udyr": {
+    "name": "Udyr",
+    "_ddragon_id": "Udyr",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Urgot": {
+    "name": "Urgot",
+    "_ddragon_id": "Urgot",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 350,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Varus": {
+    "name": "Varus",
+    "_ddragon_id": "Varus",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "mage"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 575,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Mage). Needs curation."
+  },
+  "Vayne": {
+    "name": "Vayne",
+    "_ddragon_id": "Vayne",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "carry",
+      "pick"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman, Assassin). Needs curation."
+  },
+  "Veigar": {
+    "name": "Veigar",
+    "_ddragon_id": "Veigar",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "VelKoz": {
+    "name": "Vel'Koz",
+    "_ddragon_id": "Velkoz",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "Vex": {
+    "name": "Vex",
+    "_ddragon_id": "Vex",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Vi": {
+    "name": "Vi",
+    "_ddragon_id": "Vi",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Viego": {
+    "name": "Viego",
+    "_ddragon_id": "Viego",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 200,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Viktor": {
+    "name": "Viktor",
+    "_ddragon_id": "Viktor",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Vladimir": {
+    "name": "Vladimir",
+    "_ddragon_id": "Vladimir",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "bruiser"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 450,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Fighter). Needs curation."
+  },
+  "Volibear": {
+    "name": "Volibear",
+    "_ddragon_id": "Volibear",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 150,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Warwick": {
+    "name": "Warwick",
+    "_ddragon_id": "Warwick",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Xayah": {
+    "name": "Xayah",
+    "_ddragon_id": "Xayah",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Xerath": {
+    "name": "Xerath",
+    "_ddragon_id": "Xerath",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 525,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  },
+  "XinZhao": {
+    "name": "Xin Zhao",
+    "_ddragon_id": "XinZhao",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Yone": {
+    "name": "Yone",
+    "_ddragon_id": "Yone",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Yorick": {
+    "name": "Yorick",
+    "_ddragon_id": "Yorick",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "tank"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Tank). Needs curation."
+  },
+  "Yunara": {
+    "name": "Yunara",
+    "_ddragon_id": "Yunara",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 575,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Yuumi": {
+    "name": "Yuumi",
+    "_ddragon_id": "Yuumi",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 425,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Zaahen": {
+    "name": "Zaahen",
+    "_ddragon_id": "Zaahen",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "bruiser",
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Fighter, Assassin). Needs curation."
+  },
+  "Zac": {
+    "name": "Zac",
+    "_ddragon_id": "Zac",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "top"
+    ],
+    "classes": [
+      "tank",
+      "bruiser"
+    ],
+    "damage_type": "mixed",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 175,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "frontline"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Tank, Fighter). Needs curation."
+  },
+  "Zed": {
+    "name": "Zed",
+    "_ddragon_id": "Zed",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "melee",
+    "attack_range": 125,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "assassin",
+      "pick"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Assassin). Needs curation."
+  },
+  "Zeri": {
+    "name": "Zeri",
+    "_ddragon_id": "Zeri",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "adc"
+    ],
+    "classes": [
+      "marksman"
+    ],
+    "damage_type": "physical",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "carry"
+    ],
+    "carry": true,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Marksman). Needs curation."
+  },
+  "Ziggs": {
+    "name": "Ziggs",
+    "_ddragon_id": "Ziggs",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Zilean": {
+    "name": "Zilean",
+    "_ddragon_id": "Zilean",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "support"
+    ],
+    "classes": [
+      "enchanter",
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Support, Mage). Needs curation."
+  },
+  "Zoe": {
+    "name": "Zoe",
+    "_ddragon_id": "Zoe",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 550,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage). Needs curation."
+  },
+  "Zyra": {
+    "name": "Zyra",
+    "_ddragon_id": "Zyra",
+    "_auto": true,
+    "_needs": [
+      "roles",
+      "damage_type",
+      "curve",
+      "engage",
+      "disengage",
+      "mobility",
+      "waveclear",
+      "cc",
+      "tags",
+      "spikes"
+    ],
+    "roles": [
+      "mid"
+    ],
+    "classes": [
+      "mage",
+      "enchanter"
+    ],
+    "damage_type": "magic",
+    "damage_profile": "mixed",
+    "range_type": "ranged",
+    "attack_range": 575,
+    "curve": {
+      "early": 3,
+      "mid": 3,
+      "late": 3
+    },
+    "engage": 0,
+    "disengage": 0,
+    "mobility": 0,
+    "waveclear": 0,
+    "cc": [],
+    "utility": [],
+    "tags": [
+      "enchanter",
+      "peel"
+    ],
+    "carry": false,
+    "spikes": [],
+    "notes": "Auto-seeded from Data Dragon (Mage, Support). Needs curation."
+  }
+}

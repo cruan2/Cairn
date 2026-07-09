@@ -1,0 +1,39 @@
+{
+  "_comment": "CURATED HIDDEN MATCHUP KNOWLEDGE — the stuff you can't compute. A rule fires when ALL its 'ally' champs are on your side of a lane AND ALL its 'enemy' champs are on theirs. Rules can be single-champion (apply inside any lane containing that pairing) or full pairs. Curated lines beat the generic tag engine.",
+
+  "rules": [
+    {
+      "ally": ["Ezreal", "Karma"],
+      "enemy": ["Caitlyn", "Blitzcrank"],
+      "lines": [
+        "You do NOT need to match Caitlyn's CS. A CS deficit is fine if she can't convert her range into plates or kills.",
+        "Your win condition is a health-advantage game: poke them down, deny their walk-up, and keep them off the tower.",
+        "Respect the level-2 spike — Caitlyn+Blitz have one of the strongest 2-item all-ins in bot. Don't be caught out of position at that moment."
+      ]
+    },
+    {
+      "ally": ["Karma"],
+      "enemy": ["Blitzcrank"],
+      "lines": [
+        "Stand behind your minions so Blitz can't hook you — a hook on Karma ends the trade before it starts.",
+        "When his hook is on cooldown, that's YOUR window to walk up and poke; the rest of the time, don't give him the target."
+      ]
+    },
+    {
+      "ally": ["Nami"],
+      "enemy": ["Leona"],
+      "lines": [
+        "Don't throw Bubbles randomly trying to poke — Leona WANTS you to waste your defensive tool.",
+        "Save Bubble for when she commits with E. Your job isn't to kill Leona; it's to make every engage of hers fail.",
+        "Leona has no poke. If she can't all-in, she does nothing — so deny the all-in and you win the lane by default."
+      ]
+    },
+    {
+      "ally": ["Ezreal"],
+      "enemy": ["Caitlyn"],
+      "lines": [
+        "You lose the pure lane-bully phase — that's expected. Farm safe under tower and let your item spike flip it."
+      ]
+    }
+  ]
+}

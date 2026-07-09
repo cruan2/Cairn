@@ -1,0 +1,6 @@
+# The coaching engine and the CoachNote.exe need NOTHING here (pure stdlib).
+# These are only for the optional web game backend (game/server.py):
+flask>=3.0
+
+# Build-only (not a runtime dep): pip install pyinstaller   # to build CoachNote.exe
+# Optional: set RIOT_API_KEY in the environment to enable account verification.
