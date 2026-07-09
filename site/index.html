@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cairn — pre-game coaching for League of Legends</title>
+<meta name="description" content="Cairn gives lower-ranked League players a higher-elo friend's pre-game read: win conditions, lane advice, power spikes, and common mistakes — grounded in real ranked-match data.">
+<style>
+  :root{
+    --bg:#0f1216; --card:#171b21; --line:#272d36; --fg:#e7edf3; --muted:#9aa4b2; --accent:#5aa9ff;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f8fa; --card:#ffffff; --line:#e3e8ee; --fg:#1a2029; --muted:#5b6675; --accent:#2f6fed; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 20px 64px}
+  header .logo{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:22px;letter-spacing:.2px}
+  .mark{width:26px;height:26px}
+  h1{font-size:30px;line-height:1.25;margin:26px 0 8px}
+  .tag{color:var(--muted);font-size:18px;margin:0 0 8px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:20px 0}
+  h2{font-size:15px;text-transform:uppercase;letter-spacing:.6px;color:var(--accent);margin:0 0 10px}
+  ul{margin:8px 0 0;padding-left:20px}
+  li{margin:6px 0}
+  code{background:rgba(127,127,127,.15);padding:1px 6px;border-radius:5px;font-size:14px}
+  .api dt{font-weight:600;margin-top:10px}
+  .api dd{margin:2px 0 0;color:var(--muted)}
+  footer{color:var(--muted);font-size:12px;line-height:1.6;margin-top:28px;border-top:1px solid var(--line);padding-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="logo">
+      <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 3l3 4-3 2-3-2 3-4z"/><path d="M8 10l4 2 4-2"/><path d="M7 15l5 3 5-3"/>
+      </svg>
+      Cairn
+    </span>
+  </header>
+
+  <h1>Your higher-elo friend, 30 seconds before the game.</h1>
+  <p class="tag">Cairn is a free, non-commercial coaching tool for League of Legends.</p>
+
+  <section>
+    <h2>What it is</h2>
+    <p>Given the two team compositions, Cairn writes a short, memorable pre-game note — your
+    win condition, the enemy's win condition, lane-matchup advice, key power spikes, and the
+    mistakes to avoid — in the voice of a higher-ranked player briefing a friend before a game.</p>
+    <p style="margin-bottom:0">It's built for players who know the basics but lack the pattern
+    recognition of an experienced player: the goal is intuition and mental models, not "farm more."</p>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <ul>
+      <li>A curated coaching engine turns champion identities and matchups into the note.</li>
+      <li>To keep advice grounded in reality, Cairn aggregates <em>lane-phase statistics</em>
+          (gold and CS differentials, first-objective and plate timings) from public ranked
+          matches, broken down by rank and patch.</li>
+      <li>An optional companion reads your <em>own</em> live game — via Riot's local Live Client
+          Data API on <code>127.0.0.1:2999</code> — to show the relevant note automatically.</li>
+    </ul>
+  </section>
+
+  <section class="api">
+    <h2>How it uses the Riot API</h2>
+    <dl>
+      <dt>account-v4 / summoner-v4</dt>
+      <dd>Resolve a player's Riot ID to fetch their own match history and verify account ownership.</dd>
+      <dt>league-v4</dt>
+      <dd>Read ranked tier, to label aggregated stats by elo and sample high-elo games.</dd>
+      <dt>match-v5</dt>
+      <dd>Read match and timeline data to compute the lane-phase statistics that ground the advice.</dd>
+      <dt>lol-status-v4</dt>
+      <dd>Service status checks.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Data &amp; privacy</h2>
+    <ul>
+      <li>Non-commercial personal project, used by the developer and a small group of friends.</li>
+      <li>Respects Riot API rate limits; does not scrape Riot or third-party sites.</li>
+      <li>Stores only <em>derived aggregate</em> statistics — not a bulk copy of raw match data.</li>
+      <li>Account ownership is verified with Riot's standard third-party verification code.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Cairn isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games
+    or anyone officially involved in producing or managing Riot Games properties. Riot Games and
+    all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+  </footer>
+</div>
+</body>
+</html>
